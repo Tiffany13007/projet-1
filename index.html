@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<meta charset="utf-8">
+
+<head>
+
+	<title>Ardoise magique</title>
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet"> 
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+	<script src="class/pencil.class.js"></script>
+	<script src="class/slate.class.js"></script>
+	<script src="class/program.class.js"></script>
+
+	<script src="jquery-3.3.1.min.js"></script>
+
+	<script type="text/javascript" src="main.js"></script>
+
+</head>
+
+<body>
+
+<header>
+	
+	<h1>mon ardoise magique</h1>
+
+</header>
+
+<main>
+
+<button class="pencil" data-size="5"><i class="fas fa-pencil-alt"></i> Fin</button>
+<button class="pencil" data-size="15"><i class="fas fa-pencil-alt"></i> Moyen</button>
+<button class="pencil" data-size="20"><i class="fas fa-pencil-alt"></i> Epais</button>
+<button id="eraser"><i class="fas fa-eraser"></i> Gomme</button><br>
+<button id="eraseAll">Tout effacer</button>
+<button>Sauvegarder</button>
+<!-- <button id="ball">Balle</button> -->
+<br>
+
+<div class="color-palette">
+	<span class="dot" data-color="blue" id="blue"></span>
+	<span class="dot" data-color="red" id="red"></span>
+	<span class="dot" data-color="forestgreen" id="forestgreen"></span>
+	<span class="dot" data-color="yellow" id="yellow"></span>
+	<span class="dot" data-color="purple" id="purple"></span>
+	<span class="dot" data-color="pink" id="pink"></span>
+	<span class="dot" data-color="teal" id="teal"></span>
+</div>
+
+<canvas id="canvas" width="500" height="500"> </canvas>
+
+
+
+</main>
+
+
+</body>
+
+</html>

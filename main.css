@@ -1,0 +1,56 @@
+main{
+	max-width: 1000px;
+	margin : 0 auto;
+}
+
+
+canvas{
+	border: 2px solid black;
+	border-radius: 5%;
+	box-shadow: 8px 8px 0px pink;
+	background-color: white;
+}
+
+h1{
+	text-transform: uppercase;
+	font-family: 'Amatic SC', cursive;
+	font-size: 5rem;
+	text-align: center;
+}
+
+.color-palette .dot{
+    height: 40px;
+    width: 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px 0 10px 0;
+}
+
+.color-palette #blue{
+	background-color: steelblue;
+}
+
+.color-palette #red{
+	background-color: indianred;
+}
+
+.color-palette #forestgreen{
+	background-color: forestgreen;
+}
+
+.color-palette #yellow{
+	background-color: gold;
+}
+
+.color-palette #purple{
+	background-color: purple;
+}
+
+.color-palette #pink{
+	background-color: pink;
+}
+
+.color-palette #teal{
+	background-color: teal;
+}
